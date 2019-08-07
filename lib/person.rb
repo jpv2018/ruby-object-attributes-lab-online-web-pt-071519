@@ -3,16 +3,16 @@ class Person
     @name = name
   end
   
-  def name(persons_name)
-    @this_person
+  def name
+    @name
   end
   
-  def job=(persons_job)
-    @this_job = persons_job
+  def initialize(job)
+    @job = job
   end
   
-  def job(persons_job)
-    @this_job
+  def job
+    @job
   end
 end
   
