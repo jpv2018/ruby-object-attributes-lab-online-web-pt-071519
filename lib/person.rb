@@ -14,4 +14,5 @@ class Person
   def job(persons_job)
     @this_job
   end
+end
   
